@@ -1,6 +1,5 @@
 import { useParams, Link } from 'react-router-dom'
 import { CATALOG_PRODUCTS } from '@/data/catalog'
-import { STUDIO } from '@/data/seed'
 
 export default function ProductDetailPage() {
   const { slug } = useParams<{ category: string; slug: string }>()
@@ -30,12 +29,17 @@ export default function ProductDetailPage() {
 
         <div className="mt-10 space-y-3 border-t border-stone-200 pt-8">
           <p className="text-[13px] text-stone-500"><span className="font-semibold">Included:</span> Consultation, custom design, execution across indicated sessions, aftercare kit, healing guidance.</p>
-          <p className="text-[13px] text-stone-500"><span className="font-semibold">Deposit:</span> A 15% deposit is required to secure your appointment. Applied toward the final balance.</p>
         </div>
 
         <div className="mt-10 flex flex-wrap gap-4">
-          <a href="/booking" className="inline-flex h-11 items-center justify-center bg-stone-800 px-8 text-[10px] font-semibold uppercase tracking-[0.18em] text-[#F9F4EE] transition hover:bg-stone-700">Book Consultation</a>
-          <a href={`tel:${STUDIO.phone}`} className="inline-flex h-11 items-center justify-center border border-stone-300 px-8 text-[10px] font-semibold uppercase tracking-[0.18em] text-stone-600 transition hover:border-stone-500">Call {STUDIO.phone}</a>
+          <a
+            href={product.paymentLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex h-11 items-center justify-center bg-stone-800 px-8 text-[10px] font-semibold uppercase tracking-[0.18em] text-[#F9F4EE] transition hover:bg-stone-700"
+          >
+            Purchase &amp; Pay in Full
+          </a>
         </div>
       </div>
     </div>

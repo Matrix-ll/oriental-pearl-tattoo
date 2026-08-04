@@ -5,6 +5,7 @@ import HomePage from '@/pages/HomePage'
 import ServicesPage from '@/pages/ServicesPage'
 import CategoryPage from '@/pages/CategoryPage'
 import ProductDetailPage from '@/pages/ProductDetailPage'
+import PaymentSuccess from '@/components/PaymentSuccess'
 import PricingPage from '@/pages/PricingPage'
 import BookingPage from '@/pages/BookingPage'
 import FAQPage from '@/pages/FAQPage'
@@ -23,6 +24,7 @@ export default function App() {
     <BrowserRouter>
       <div className="min-h-screen bg-[#F9F4EE]">
         <Navbar />
+        <PaymentSuccess />
         <main>
           <Routes>
             <Route path="/" element={<HomePage />} />

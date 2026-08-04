@@ -16,21 +16,21 @@ export default function FAQPage() {
     <div className="min-h-screen bg-[#F9F4EE] pt-24 pb-16">
       <div className="mx-auto max-w-[44rem] px-6 sm:px-10 lg:px-12">
         <h1 className="font-display text-3xl font-black uppercase tracking-[0.10em] text-stone-800 sm:text-4xl">FAQ</h1>
-        <p className="mt-3 font-body text-sm text-stone-500">Common questions about booking, preparation, aftercare, and our studio policies.</p>
+        <p className="mt-3 font-body text-sm text-stone-600">Common questions about booking, preparation, aftercare, and our studio policies.</p>
         <div className="mt-10 space-y-6">
           {faqs.map((f, i) => (
-            <div key={i} className="border-b border-stone-200 pb-5">
+            <div key={i} className="border-b border-stone-300 pb-5">
               <p className="font-display text-base font-bold uppercase tracking-[0.04em] text-stone-700">{f.q}</p>
-              <p className="mt-2 text-[13px] leading-relaxed text-stone-500">{f.a}</p>
+              <p className="mt-2 text-[13px] leading-relaxed text-stone-600">{f.a}</p>
             </div>
           ))}
         </div>
-        <div className="mt-12 border-t border-stone-200 pt-8 text-center">
+        <div className="mt-12 border-t border-stone-300 pt-8 text-center">
           <p className="font-display text-lg font-black uppercase tracking-[0.08em] text-stone-700">Still have a question?</p>
-          <p className="mt-2 text-[13px] text-stone-500">Send us a message or begin a consultation and we will guide you from there.</p>
+          <p className="mt-2 text-[13px] text-stone-600">Send us a message or begin a consultation and we will guide you from there.</p>
           <div className="mt-6 flex flex-wrap justify-center gap-4">
             <a href="/booking" className="inline-flex h-11 items-center justify-center bg-stone-800 px-8 text-[10px] font-semibold uppercase tracking-[0.16em] text-[#F9F4EE]">Begin a Consultation</a>
-            <a href={`mailto:${STUDIO.email}`} className="inline-flex h-11 items-center justify-center border border-stone-300 px-8 text-[10px] font-semibold uppercase tracking-[0.16em] text-stone-600">Contact the Studio</a>
+            <a href={`mailto:${STUDIO.email}`} className="inline-flex h-11 items-center justify-center border border-stone-400 px-8 text-[10px] font-semibold uppercase tracking-[0.16em] text-stone-600">Contact the Studio</a>
           </div>
         </div>
       </div>

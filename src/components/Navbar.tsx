@@ -44,7 +44,7 @@ export default function Navbar() {
         </Link>
 
         <button
-          className="z-50 p-1 text-stone-400 hover:text-stone-600 transition-colors"
+          className="z-50 p-1 text-stone-600 hover:text-stone-600 transition-colors"
           onClick={() => setOpen(!open)}
           aria-label="Toggle menu"
         >
@@ -53,7 +53,7 @@ export default function Navbar() {
 
         {/* Compact dropdown — anchored to emblem area, small and contained */}
         {open && (
-          <div className="absolute top-[60px] left-5 sm:left-8 w-[260px] rounded-sm border border-stone-200 bg-[#F9F4EE] shadow-lg py-2">
+          <div className="absolute top-[60px] left-5 sm:left-8 w-[260px] rounded-sm border border-stone-300 bg-[#F9F4EE] shadow-lg py-2">
             {NAV_ITEMS.map((item) => (
               <NavLink
                 key={item.href}
@@ -61,7 +61,7 @@ export default function Navbar() {
                 onClick={close}
                 className={({ isActive }) =>
                   `block px-5 py-2.5 text-[13px] font-medium uppercase tracking-[0.10em] transition-colors ${
-                    isActive ? 'text-stone-800 bg-stone-100' : 'text-stone-500 hover:text-stone-700 hover:bg-stone-50'
+                    isActive ? 'text-stone-800 bg-stone-100' : 'text-stone-600 hover:text-stone-700 hover:bg-stone-50'
                   }`
                 }
               >

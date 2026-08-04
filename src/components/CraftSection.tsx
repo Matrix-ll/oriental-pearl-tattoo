@@ -16,7 +16,7 @@ export default function CraftSection() {
 
         <div className="grid items-center gap-12 lg:grid-cols-3">
           <div className="flex justify-center">
-            <div className="relative h-[240px] w-[240px] sm:h-[300px] sm:w-[300px] rounded-full overflow-hidden border-2 border-stone-300 shadow-lg">
+            <div className="relative h-[240px] w-[240px] sm:h-[300px] sm:w-[300px] rounded-full overflow-hidden border-2 border-stone-400 shadow-lg">
               <img
                 src={IMGS.sleeve}
                 alt="Full-sleeve floral tattoo"
@@ -27,22 +27,22 @@ export default function CraftSection() {
           </div>
 
           <div className="text-center">
-            <p className="font-sans text-xs font-medium uppercase tracking-[0.25em] text-stone-500">
+            <p className="font-sans text-xs font-medium uppercase tracking-[0.25em] text-stone-600">
               THE CRAFT
             </p>
             <h2 className="mt-6 font-display text-3xl font-black uppercase leading-[1.05] text-stone-900 sm:text-4xl lg:text-5xl">
               BUILT FOR<br />PERMANENCE
             </h2>
-            <p className="mt-8 mx-auto max-w-sm font-body text-lg leading-relaxed text-stone-500">
+            <p className="mt-8 mx-auto max-w-sm font-body text-lg leading-relaxed text-stone-600">
               Every line is considered. Every detail intentional. Created for one person. Made to endure.
             </p>
-            <p className="mt-8 font-display text-2xl italic text-stone-400">
+            <p className="mt-8 font-display text-2xl italic text-stone-600">
               Oriental Pearl
             </p>
           </div>
 
           <div className="flex justify-center">
-            <div className="relative h-[240px] w-[240px] sm:h-[300px] sm:w-[300px] rounded-full overflow-hidden border-2 border-stone-300 shadow-lg">
+            <div className="relative h-[240px] w-[240px] sm:h-[300px] sm:w-[300px] rounded-full overflow-hidden border-2 border-stone-400 shadow-lg">
               <img
                 src={IMGS.back}
                 alt="Cherry blossom back tattoo"

@@ -17,8 +17,8 @@ export default function PearlCTA() {
             >
               <div className="h-4 w-4 rounded-full bg-white/60" />
             </div>
-            <div className="absolute -inset-4 rounded-full border border-stone-300/30" />
-            <div className="absolute -inset-8 rounded-full border border-stone-300/15" />
+            <div className="absolute -inset-4 rounded-full border border-stone-400/30" />
+            <div className="absolute -inset-8 rounded-full border border-stone-400/15" />
           </div>
 
           <h2 className="font-display text-3xl font-black uppercase leading-[1.05] text-foreground sm:text-4xl lg:text-5xl">

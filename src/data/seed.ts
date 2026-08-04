@@ -7,12 +7,7 @@ export const STUDIO = {
   website: 'https://orientalpearltattoo.com',
   instagram: '@orientalpearl',
   hours: [
-    { day: 'Monday', time: '12:00 PM – 5:00 PM' },
-    { day: 'Tuesday', time: '12:00 PM – 5:00 PM' },
-    { day: 'Wednesday', time: '12:00 PM – 5:00 PM' },
-    { day: 'Thursday', time: '12:00 PM – 5:00 PM' },
-    { day: 'Friday', time: '12:00 PM – 5:00 PM' },
-    { day: 'Saturday', time: '12:00 PM – 3:00 PM' },
+    { day: 'Monday – Saturday', time: '12:00 PM – 5:00 PM' },
     { day: 'Sunday', time: 'Closed' },
   ],
 }

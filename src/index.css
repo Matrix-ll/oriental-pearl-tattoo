@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Oriental Pearl Tattoo — Design Tokens
+ * Deep noir, pearl-tone neutrals, luminous ivory accent.
+ */
+@layer base {
+  :root {
+    --background: 240 5% 3%;
+    --foreground: 40 12% 90%;
+    --card: 240 4% 5%;
+    --card-foreground: 40 12% 90%;
+    --popover: 240 4% 5%;
+    --popover-foreground: 40 12% 90%;
+    --primary: 40 12% 90%;
+    --primary-foreground: 240 5% 5%;
+    --secondary: 240 4% 10%;
+    --secondary-foreground: 40 12% 90%;
+    --muted: 240 4% 10%;
+    --muted-foreground: 36 6% 55%;
+    --accent: 42 12% 78%;
+    --accent-foreground: 240 5% 8%;
+    --destructive: 0 55% 38%;
+    --destructive-foreground: 0 0% 96%;
+    --border: 240 4% 13%;
+    --input: 240 4% 13%;
+    --ring: 40 12% 90%;
+    --radius: 0rem;
+    --font-sans: 'Space Grotesk';
+    --font-body: 'Cormorant Garamond';
+    --font-display: 'Playfair Display';
+  }
+  .dark {
+    --background: 240 5% 3%;
+    --foreground: 40 12% 90%;
+    --card: 240 4% 5%;
+    --card-foreground: 40 12% 90%;
+    --popover: 240 4% 5%;
+    --popover-foreground: 40 12% 90%;
+    --primary: 40 12% 90%;
+    --primary-foreground: 240 5% 5%;
+    --secondary: 240 4% 10%;
+    --secondary-foreground: 40 12% 90%;
+    --muted: 240 4% 10%;
+    --muted-foreground: 36 6% 55%;
+    --accent: 42 12% 78%;
+    --accent-foreground: 240 5% 8%;
+    --destructive: 0 55% 38%;
+    --destructive-foreground: 0 0% 96%;
+    --border: 240 4% 13%;
+    --input: 240 4% 13%;
+    --ring: 40 12% 90%;
+  }
+}
+@layer base {
+  * { @apply border-border; }
+  body { @apply bg-background text-foreground; font-family: 'Cormorant Garamond', ui-serif, Georgia, serif; -webkit-font-smoothing: antialiased; }
+  html { scroll-behavior: smooth; }
+  nav, button, input, select, textarea, label { font-family: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif; }
+  h1, h2, h3 { font-family: 'Playfair Display', ui-serif, Georgia, serif; }
+}
+.scrollbar-none { -ms-overflow-style: none; scrollbar-width: none; }
+.scrollbar-none::-webkit-scrollbar { display: none; }

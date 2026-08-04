@@ -27,16 +27,16 @@ export default function CraftSection() {
           </div>
 
           <div className="text-center">
-            <p className="font-sans text-xs font-medium uppercase tracking-[0.25em] text-stone-600">
+            <p className="font-sans text-xs font-medium uppercase tracking-[0.25em] text-stone-500">
               THE CRAFT
             </p>
             <h2 className="mt-6 font-display text-3xl font-black uppercase leading-[1.05] text-stone-900 sm:text-4xl lg:text-5xl">
               BUILT FOR<br />PERMANENCE
             </h2>
-            <p className="mt-8 mx-auto max-w-sm font-body text-lg leading-relaxed text-stone-600">
+            <p className="mt-8 mx-auto max-w-sm font-body text-lg leading-relaxed text-stone-500">
               Every line is considered. Every detail intentional. Created for one person. Made to endure.
             </p>
-            <p className="mt-8 font-display text-2xl italic text-stone-600">
+            <p className="mt-8 font-display text-2xl italic text-stone-400">
               Oriental Pearl
             </p>
           </div>

@@ -26,7 +26,7 @@ export default function ArtistsSection() {
               </div>
               <div className="mt-3 px-0.5">
                 <p className="font-display text-base font-bold uppercase tracking-[0.08em] text-stone-800">{a.name}</p>
-                <p className="mt-0.5 font-sans text-[10px] font-medium uppercase tracking-[0.2em] text-stone-600">{a.role}</p>
+                <p className="mt-0.5 font-sans text-[10px] font-medium uppercase tracking-[0.2em] text-stone-400">{a.role}</p>
               </div>
             </div>
           ))}

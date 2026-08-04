@@ -20,13 +20,13 @@ export default function ContactSection() {
           <div>
             <h3 className="font-display text-lg font-black uppercase tracking-[0.12em] text-stone-800">CONTACT US</h3>
             <div className="mt-5 space-y-3">
-              <div><p className="font-sans text-[9px] font-medium uppercase tracking-[0.22em] text-stone-600">ADDRESS</p><p className="mt-1 text-[13px] text-stone-600 leading-relaxed">{STUDIO.address}</p></div>
-              <div><p className="font-sans text-[9px] font-medium uppercase tracking-[0.22em] text-stone-600">PHONE</p><p className="mt-1 text-[13px] text-stone-600">{STUDIO.phone}</p></div>
-              <div><p className="font-sans text-[9px] font-medium uppercase tracking-[0.22em] text-stone-600">EMAIL</p><p className="mt-1 text-[13px] text-stone-600">{STUDIO.email}</p></div>
+              <div><p className="font-sans text-[9px] font-medium uppercase tracking-[0.22em] text-stone-400">ADDRESS</p><p className="mt-1 text-[13px] text-stone-600 leading-relaxed">{STUDIO.address}</p></div>
+              <div><p className="font-sans text-[9px] font-medium uppercase tracking-[0.22em] text-stone-400">PHONE</p><p className="mt-1 text-[13px] text-stone-600">{STUDIO.phone}</p></div>
+              <div><p className="font-sans text-[9px] font-medium uppercase tracking-[0.22em] text-stone-400">EMAIL</p><p className="mt-1 text-[13px] text-stone-600">{STUDIO.email}</p></div>
               <div>
-                <p className="font-sans text-[9px] font-medium uppercase tracking-[0.22em] text-stone-600">HOURS</p>
+                <p className="font-sans text-[9px] font-medium uppercase tracking-[0.22em] text-stone-400">HOURS</p>
                 {HOURS.map((h) => (
-                  <p key={h.day} className="mt-0.5 text-[12px] text-stone-600">{h.day} <span className="text-stone-600">{h.time}</span></p>
+                  <p key={h.day} className="mt-0.5 text-[12px] text-stone-500">{h.day} <span className="text-stone-400">{h.time}</span></p>
                 ))}
               </div>
             </div>
@@ -48,7 +48,7 @@ export default function ContactSection() {
                 <path d="M20 20 Q24 12 28 6" />
               </svg>
             </div>
-            <p className="mt-4 text-center font-body text-xs text-stone-600 italic max-w-[160px]">Permanent art, commissioned for one.</p>
+            <p className="mt-4 text-center font-body text-xs text-stone-400 italic max-w-[160px]">Permanent art, commissioned for one.</p>
           </div>
 
           <div>

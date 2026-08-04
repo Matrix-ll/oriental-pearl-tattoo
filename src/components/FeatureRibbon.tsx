@@ -37,7 +37,7 @@ export default function FeatureRibbon() {
               </div>
               <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-[#7A8B6F] text-[10px] font-bold text-white mt-1 mb-1.5">{s.num}</span>
               <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.15em] text-[#D4CFC4]">{s.label}</p>
-              <p className="mt-1.5 text-[11px] leading-relaxed text-stone-600 font-body">{s.desc}</p>
+              <p className="mt-1.5 text-[11px] leading-relaxed text-stone-400 font-body">{s.desc}</p>
             </div>
           ))}
         </div>

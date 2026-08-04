@@ -6,13 +6,13 @@ export default function ProductDetailPage() {
   const product = CATALOG_PRODUCTS.find((p) => p.slug === slug)
 
   if (!product) {
-    return <div className="min-h-screen bg-[#F9F4EE] pt-24 pb-16"><div className="mx-auto max-w-[84rem] px-10 py-20"><p className="text-stone-500">Product not found.</p></div></div>
+    return <div className="min-h-screen bg-[#F9F4EE] pt-24 pb-16"><div className="mx-auto max-w-[84rem] px-10 py-20"><p className="text-stone-600">Product not found.</p></div></div>
   }
 
   return (
     <div className="min-h-screen bg-[#F9F4EE] pt-24 pb-16">
       <div className="mx-auto max-w-[48rem] px-6 sm:px-10 lg:px-12">
-        <Link to={`/services/${product.categorySlug}`} className="font-sans text-[10px] font-medium uppercase tracking-[0.18em] text-stone-400 hover:text-stone-600">&larr; {product.category}</Link>
+        <Link to={`/services/${product.categorySlug}`} className="font-sans text-[10px] font-medium uppercase tracking-[0.18em] text-stone-600 hover:text-stone-600">&larr; {product.category}</Link>
 
         <div className="mt-6 aspect-[16/10] overflow-hidden bg-stone-100 border border-stone-200">
           <img src={product.image} alt={product.name} className="h-full w-full object-cover" />
@@ -22,13 +22,13 @@ export default function ProductDetailPage() {
         <p className="mt-2 font-display text-2xl font-bold text-stone-700">${product.amount}</p>
 
         <div className="mt-10 space-y-5">
-          <div><p className="font-sans text-[9px] font-semibold uppercase tracking-[0.18em] text-stone-400">Scale & Sessions</p><p className="mt-1 text-[14px] text-stone-600">{product.scaleOrSession}</p></div>
-          <div><p className="font-sans text-[9px] font-semibold uppercase tracking-[0.18em] text-stone-400">Color</p><p className="mt-1 text-[14px] text-stone-600">{product.colorType}</p></div>
-          <div><p className="font-sans text-[9px] font-semibold uppercase tracking-[0.18em] text-stone-400">Suitable Placements</p><p className="mt-1 text-[14px] text-stone-600">{product.suitablePlacements}</p></div>
+          <div><p className="font-sans text-[9px] font-semibold uppercase tracking-[0.18em] text-stone-600">Scale & Sessions</p><p className="mt-1 text-[14px] text-stone-600">{product.scaleOrSession}</p></div>
+          <div><p className="font-sans text-[9px] font-semibold uppercase tracking-[0.18em] text-stone-600">Color</p><p className="mt-1 text-[14px] text-stone-600">{product.colorType}</p></div>
+          <div><p className="font-sans text-[9px] font-semibold uppercase tracking-[0.18em] text-stone-600">Suitable Placements</p><p className="mt-1 text-[14px] text-stone-600">{product.suitablePlacements}</p></div>
         </div>
 
         <div className="mt-10 space-y-3 border-t border-stone-200 pt-8">
-          <p className="text-[13px] text-stone-500"><span className="font-semibold">Included:</span> Consultation, custom design, execution across indicated sessions, aftercare kit, healing guidance.</p>
+          <p className="text-[13px] text-stone-600"><span className="font-semibold">Included:</span> Consultation, custom design, execution across indicated sessions, aftercare kit, healing guidance.</p>
         </div>
 
         <div className="mt-10 flex flex-wrap gap-4">

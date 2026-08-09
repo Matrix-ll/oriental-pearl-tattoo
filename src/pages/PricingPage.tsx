@@ -39,7 +39,7 @@ export default function PricingPage() {
           <h2 className="mt-6 font-display text-3xl font-black uppercase leading-[1.05] text-stone-800 sm:text-4xl lg:text-5xl">
             Your Idea,<br />Your Investment
           </h2>
-          <p className="mt-6 font-display text-2xl italic text-[#A38855] sm:text-3xl">$1 — $5,000</p>
+          <p className="mt-6 font-display text-2xl italic text-[#D4AF37] sm:text-3xl">$1 — $5,000</p>
           <p className="mx-auto mt-6 max-w-md font-body text-[15px] leading-relaxed text-stone-600">
             Not every piece fits a fixed price. Whether it's a tiny symbol or a full back piece, we'll work with you. Bring your idea and your budget — we'll make something timeless.
           </p>
@@ -48,7 +48,7 @@ export default function PricingPage() {
               href="https://buy.stripe.com/aFa14g99Hclg4YyduWgMw0z"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex h-12 items-center justify-center bg-[#C8B89A] px-10 text-[11px] font-bold uppercase tracking-[0.18em] text-black transition hover:bg-[#B8A888]"
+              className="inline-flex h-12 items-center justify-center bg-[#D4AF37] px-10 text-[11px] font-bold uppercase tracking-[0.18em] text-black transition hover:bg-[#C9A227]"
             >
               Make a Custom Payment
             </a>

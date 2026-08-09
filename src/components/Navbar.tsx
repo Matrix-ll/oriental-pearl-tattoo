@@ -39,7 +39,7 @@ export default function Navbar() {
           <img
             src="https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/db5c8fe6-8110-4aa8-8072-e0f3987a64fc/images/1785890363893-appeq4gpsv9.png"
             alt="Oriental Pearl Tattoo"
-            className="h-16 w-16 sm:h-[72px] sm:w-[72px] object-contain"
+            className="h-12 w-12 object-contain"
           />
         </Link>
 

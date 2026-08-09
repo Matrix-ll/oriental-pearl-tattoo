@@ -32,6 +32,28 @@ export default function PricingPage() {
         <div className="mt-16 border-t border-stone-300 pt-10">
           <p className="text-center text-[13px] text-stone-600">Pricing reflects starting rates. Final cost confirmed during consultation. <Link to="/booking" className="underline hover:text-stone-700">Book yours today.</Link></p>
         </div>
+
+        {/* CUSTOM PRICING — dark section with custom-amount Stripe payment */}
+        <div className="mt-16 bg-[#111111] px-6 py-16 sm:px-12 sm:py-20 text-center">
+          <p className="font-sans text-[11px] font-medium uppercase tracking-[0.30em] text-[#C8B89A]">Custom Pricing</p>
+          <h2 className="mt-6 font-display text-3xl font-black uppercase leading-[1.05] text-[#F5F4F0] sm:text-4xl lg:text-5xl">
+            Your Idea,<br />Your Investment
+          </h2>
+          <p className="mt-6 font-display text-2xl italic text-[#C8B89A] sm:text-3xl">$1 — $5,000</p>
+          <p className="mx-auto mt-6 max-w-md font-body text-[15px] leading-relaxed text-stone-400">
+            Not every piece fits a fixed price. Whether it's a tiny symbol or a full back piece, we'll work with you. Bring your idea and your budget — we'll make something timeless.
+          </p>
+          <div className="mt-10">
+            <a
+              href="https://buy.stripe.com/aFa14g99Hclg4YyduWgMw0z"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex h-12 items-center justify-center border border-[#C8B89A]/60 px-10 text-[11px] font-semibold uppercase tracking-[0.18em] text-[#C8B89A] transition hover:border-[#C8B89A] hover:text-[#D4CFC4]"
+            >
+              Make a Custom Payment
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   )

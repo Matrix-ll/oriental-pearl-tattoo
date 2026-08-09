@@ -37,9 +37,9 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-[100rem] items-center gap-3 px-5 py-4 sm:px-8" ref={ref}>
         <Link to="/" aria-label="Oriental Pearl Tattoo — Home" className="z-50">
           <img
-            src="https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/db5c8fe6-8110-4aa8-8072-e0f3987a64fc/images/1785890363893-appeq4gpsv9.png"
+            src="https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/db5c8fe6-8110-4aa8-8072-e0f3987a64fc/images/1786261125185-p0g91ho76ic.png"
             alt="Oriental Pearl Tattoo"
-            className="h-12 w-12 object-contain"
+            className="h-16 w-16 sm:h-[72px] sm:w-[72px] object-contain"
           />
         </Link>
 
